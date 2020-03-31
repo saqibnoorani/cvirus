@@ -1,18 +1,25 @@
-# getstat
 
-CLI to get stats of the NPM Packages in your terminal
+# cvirus
+
+  
+
+CLI to get corona virus updates in the terminal
 
   
 
-**Get Stats Of NPM Packages**
-
   
+
+ 
 
 **Install command:**
 
   
 
-*npm install getstat -g*
+  
+
+*npm install cvirus-g*
+
+  
 
   
 
@@ -20,7 +27,11 @@ CLI to get stats of the NPM Packages in your terminal
 
   
 
-    getstat<package name>
+  
+
+cvirus *countryname*
+
+  
 
   
 
@@ -28,13 +39,21 @@ CLI to get stats of the NPM Packages in your terminal
 
   
 
+  
+  
 
--d, --details get github details.  
--h, --help output usage information*
+
+  -V, --version  output the version number
+  -a, --all      Get Summary details
+  -h, --help     output usage information
 
   
 
-**Example**: `getstat react -d`
+  
 
+**Example**: `cvirus italy` or `cvirus -a`
 
-[Github](https://github.com/saqibnoorani/getstat)
+  
+  
+
+[Github](https://github.com/saqibnoorani/cvirus)

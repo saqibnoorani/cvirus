@@ -43,7 +43,7 @@ function getCovidDetails(response: any) {
 }
 
 program
-  .version('1.0.0')
+  .version('1.0.1')
   .description("Track corona virus in your terminal")
   .option('-a, --all', 'Get Summary details')
   .parse(process.argv);
