@@ -43,15 +43,16 @@ cvirus *countryname*
   
 
 
-  -V, --version  output the version number
-  -a, --all      Get Summary details
-  -h, --help     output usage information
+  -V, --version   output the version number
+  -d, --district  Get Get District wise data for India
+  -a, --all       Get Summary details
+  -h, --help      output usage information
 
   
 
   
 
-**Example**: `cvirus italy` or `cvirus -a`
+**Example**: `cvirus italy` or `cvirus -a` or `cvirus india -d`
 
   
   

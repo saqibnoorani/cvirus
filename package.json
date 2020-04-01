@@ -1,6 +1,6 @@
 {
   "name": "cvirus",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Track corona virus cases in your terminal",
   "main": "./lib/index.js",
   "scripts": {
@@ -30,12 +30,13 @@
     "cvirus": "./lib/index.js"
   },
   "dependencies": {
+    "await-to-js": "^2.1.1",
+    "axios": "^0.19.2",
     "chalk": "^2.4.1",
     "clear": "^0.1.0",
     "cli-table": "^0.3.1",
     "commander": "^2.19.0",
-    "figlet": "^1.3.0",
-    "path": "^0.12.7"
+    "figlet": "^1.3.0"
   },
   "devDependencies": {
     "@types/node": "^10.12.10",
