@@ -1,6 +1,8 @@
 
 # cvirus
 
+![Node.js CI](https://github.com/saqibnoorani/cvirus/workflows/Node.js%20CI/badge.svg?branch=master)
+  
   
 
 CLI to get corona virus updates in the terminal
