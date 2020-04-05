@@ -2,7 +2,6 @@
 const chalk = require('chalk');
 const clear = require('clear');
 const figlet = require('figlet');
-const path = require('path');
 const program = require('commander');
 const Table = require('cli-table');
 const api =require('./api');
@@ -96,7 +95,7 @@ function getCovidDetails(response: any) {
 }
 
 program
-  .version('1.2.0')
+  .version('1.2.1')
   .description("Track corona virus in your terminal")
   .option('-d, --district', 'Get Get District wise data for India <cvirus india -d>')
   .option('-a, --all', 'Get Summary details')

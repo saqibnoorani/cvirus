@@ -1,62 +1,66 @@
+<h1 align="center">Welcome to cvirus 😷</h1>
+<p>
+  <a href="https://www.npmjs.com/package/cvirus" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/cvirus.svg">
+  </a>
+  <a href="https://github.com/saqibnoorani/cvirus#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/saqibnoorani/cvirus/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/saqibnoorani/cvirus/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/saqibnoorani/cvirus" />
+  </a>
+  <a href="https://twitter.com/saqibnoorani" target="_blank">
+    <img alt="Twitter: saqibnoorani" src="https://img.shields.io/twitter/follow/saqibnoorani.svg?style=social" />
+  </a>
+</p>
 
-# cvirus
+> Track corona virus cases in your terminal
 
-![Node.js CI](https://github.com/saqibnoorani/cvirus/workflows/Node.js%20CI/badge.svg?branch=master)
-  
-  
+### 🏠 [Homepage](https://www.npmjs.com/package/cvirus)
 
-CLI to get corona virus updates in the terminal
+## Install
 
-  
+```sh
+npm install cvirus-g
+```
 
-  
+## Usage
 
- 
-
-**Install command:**
-
-  
-
-  
-
-*npm install cvirus-g*
-
-  
-
-  
-
-**Usage:**
-
-  
-
-  
-
+```sh
 cvirus *countryname*
+```
 
-  
+## Example
 
-  
-
-**Options:**
-
-  
-
-  
-  
+```sh
+cvirus italy  or cvirus -a  or cvirus india -d
+```
 
 
-  -V, --version   output the version number
-  -d, --district  Get Get District wise data for India
-  -a, --all       Get Summary details
-  -h, --help      output usage information
+## Run tests
 
-  
+```sh
+npm run test
+```
+![Node.js CI](https://github.com/saqibnoorani/cvirus/workflows/Node.js%20CI/badge.svg?branch=master)
+## Author
 
-  
+👤 **Najmus Saqib**
 
-**Example**: `cvirus italy` or `cvirus -a` or `cvirus india -d`
+* Website: saqibnoorani.com
+* Twitter: [@saqibnoorani](https://twitter.com/saqibnoorani)
+* Github: [@saqibnoorani](https://github.com/saqibnoorani)
+* LinkedIn: [@saqibnoorani](https://linkedin.com/in/saqibnoorani)
 
-  
-  
+## Show your support
 
-[Github](https://github.com/saqibnoorani/cvirus)
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2020 [Najmus Saqib](https://github.com/saqibnoorani).<br />
+This project is [MIT](https://github.com/saqibnoorani/cvirus/blob/master/LICENSE) licensed.
+

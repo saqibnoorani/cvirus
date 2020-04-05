@@ -1,6 +1,6 @@
 {
   "name": "cvirus",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Track corona virus cases in your terminal",
   "main": "./lib/index.js",
   "scripts": {
