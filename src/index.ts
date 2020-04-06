@@ -115,7 +115,7 @@ function getCovidDetails(response: any) {
 }
 
 program
-  .version('1.2.1')
+  .version('1.2.2')
   .description('Track corona virus in your terminal')
   .option(
     '-d, --district',
